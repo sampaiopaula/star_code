@@ -1,0 +1,56 @@
+
+       #fundo{background-color: rgb(122, 115, 115);}
+       .fontnome{font-family:Playfair Display; 
+    color: white;}
+       .fontnome2{font-family:Inconsolata; color: white;}
+
+     
+
+    
+    .fontmargim{  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        
+    .ali{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+
+.box:hover { 
+    border-radius: 30px;
+    background-color: #eadf;
+    width: 250px;
+    height: 250px;
+    transform: rotate(90deg);
+}
+
+        
+
+
+        #box1{background: rgb(165, 165, 233);
+           
+            width: 330px;
+            height: 320px;
+            border-radius: 5%;
+            margin: 200px 10px 10px 10px ; 
+           display: flex;
+           justify-content: center;
+          
+        
+        
+          }
+    
+          
+    
+        
+    
+                .logo{height: 120%;
+                    height: 85px;
+                   margin: 80px; 
+                 }
+              
+     
+     
