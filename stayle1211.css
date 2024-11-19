@@ -1,0 +1,26 @@
+.conteiner{width: 50%;
+  margin: 0 auto;
+    display: grid;
+    gap:10px ;
+    grid-template-columns: repeat(auto-fill ,minmax(100px , 1fr))  ;
+   
+                   
+}
+
+
+
+.gridItem{width: 100px;
+height: 100px;
+}
+
+.red{background-color: red;}
+.blue{background-color: blue;}
+.green{background-color: green;}
+.yellow{background-color: yellow;}
+ 
+.older1{ grid-row:2;}
+
+.older2{grid-row:2;}
+
+.older3{grid-column: 1/3;}
+
