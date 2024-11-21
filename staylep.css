@@ -43,7 +43,7 @@ justify-content: center;}
         width: 500px;
     }
 
-    .topo{width: 500px;
+    .topo{width: 100%;
         height: 200px;
         background: url(https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a7e0cd2ad28375c69f8b96c7dfc91645.jpg) ;
         background-position: 60% 20%;
@@ -53,14 +53,19 @@ justify-content: center;}
          color: aliceblue;
          display: flex;
          align-items: center;
-     justify-content: center;   }
-        
+     justify-content: center; 
+     flex-direction: column;
+      }
+
+
+   
+       
      .caixa{width: 300px;
         height: 200px;
-        background-color: rgb(16, 228, 101);
+      
         border-radius: 6%; margin: 30px 20px 10px 10px;
         background: url();
-        background-color: aquamarine;
+      
         background-position: 50% 20%;
          background-size: cover;
          background-repeat: no-repeat;}
@@ -70,8 +75,11 @@ justify-content: center;}
          .conteiner3{width: 50%;
             margin: 0 auto;
               display: grid;
-              gap:10px ;
-              grid-template-rows: repeat(8, 200px)  ;
+              gap:10px 10px ;
+              grid-template-columns: repeat(auto-fit ,minmax(100px , 1fr))  
+              ;
+              place-items: center center;
+              margin: 10px;
              
                              
           }
@@ -80,10 +88,74 @@ justify-content: center;}
           
           .gridItem{width: 300px;
           height: 200px;
+
           }
           
-       .caixa1{background-color: aquamarine;
-    border-radius: 3PX;}
+       .caixa1{background: url(https://i.pinimg.com/736x/96/01/ac/9601ac2b697d557c14c115c58e0ff567.jpg);
+    border-radius: 15%;
+    background-position: 50% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+
+
+    .caixa9{background:url();
+        background-position: 50% 20%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15%;}
+
+
+        .caixa8{background:url();
+            background-position: 50% 20%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 15%;} 
+            
+            
+            .caixa7{background:url();
+                background-position: 50% 20%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 15%;} 
+
+
+                 .caixa6{background:url();
+                    background-position: 50% 20%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border-radius: 15%;} 
+
+
+                     .caixa5{background:url(https://i.pinimg.com/736x/ba/fc/b5/bafcb5742be388214c92dd4bbc259bc7.jpg);
+                        background-position: 50% 20%;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        border-radius: 15%;}
+
+
+                          
+
+
+                             .caixa4{background:url(https://i.pinimg.com/736x/35/e9/47/35e9477a071f35e683e3a79776679baf.jpg);
+                                background-position: 50% 20%;
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                                border-radius: 15%;} 
+
+
+                                 .caixa3{background:url(https://phygital-files.mercafacil.com/allshopping/uploads/produto/pao_de_mel_doce_de_leite_42e7fc83-8010-4c3c-814f-02c22cc4ccbd.jpeg);
+                                    background-position: 50% 20%;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    border-radius: 15%;} 
+
+
+                                     .caixa2{background:url(https://i.pinimg.com/736x/b3/66/e0/b366e05493666e42835d49b43347ac2a.jpg);
+                                        background-position: 50% 20%;
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        border-radius: 15%;}
            
         
          .ali{display: flex;
