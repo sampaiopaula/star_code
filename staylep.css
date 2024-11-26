@@ -5,7 +5,7 @@ max-width: 60% ;}
 
 .conteinerc{height:100% ;
 width: 100%;}
-
+.fundo{background-color: rgb(255, 255, 255);}
 
 .cabesalho{
     width:100%;
@@ -21,10 +21,16 @@ gap:50px ;
     color: white;
     text-align: center;
     padding: 20px; 
-    position: fixed; 
+     
     bottom: 0; 
     width: 100%; 
-    font-size: 14px;}
+    font-size: 13px;
+     display: flex;
+    align-items: center;
+justify-content: center; 
+flex-direction: row;
+
+}
     
     .titulo{font-family:fantasy;
     color: aliceblue;
@@ -49,6 +55,7 @@ justify-content: center;}
         background-position: 60% 20%;
          background-size: cover;
          background-repeat: no-repeat;
+         font-family: Ga Maamli;
          font-size: 25px;
          color: aliceblue;
          display: flex;
@@ -58,7 +65,32 @@ justify-content: center;}
       }
 
 
-   
+.cor{color: black;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    font-family: Neucha;
+    align-items: center;
+justify-content: center; 
+flex-direction: column}
+
+      .fontr{ color: rgb(255, 255, 252);
+        text-align: center;
+        font-size: 40px;
+        display: flex;
+        font-family: Neucha;
+        align-items: center;
+    justify-content: center; 
+    flex-direction: column;}
+        
+
+.new{ font-family: Ga Maamli;
+    font-size: 50px;
+    color: rgb(254, 51, 0);
+}
+    .new1{position: relative;
+    bottom:25px;
+right: 5px;}
        
      .caixa{width: 300px;
         height: 200px;
@@ -75,11 +107,11 @@ justify-content: center;}
          .conteiner3{width: 50%;
             margin: 0 auto;
               display: grid;
-              gap:10px 10px ;
-              grid-template-columns: repeat(auto-fit ,minmax(100px , 1fr))  
+              gap:30px 30px ;
+              grid-template-columns: repeat(auto-fill ,minmax(200px , 1fr))  
               ;
               place-items: center center;
-              margin: 10px;
+              margin: 40px;
              
                              
           }
@@ -93,34 +125,39 @@ justify-content: center;}
           
        .caixa1{background: url(https://i.pinimg.com/736x/96/01/ac/9601ac2b697d557c14c115c58e0ff567.jpg);
     border-radius: 15%;
-    background-position: 50% 20%;
+    background-position: 50% 40%;
     background-size: cover;
     background-repeat: no-repeat;}
 
+    .caixa10{
+        background:url();
+        background-position: 50% 20%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15%;}
 
-
-    .caixa9{background:url();
+    .caixa9{background:url(https://i.pinimg.com/736x/f9/fa/4d/f9fa4dc50cd77513c79f936e36b84237.jpg);
         background-position: 50% 20%;
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 15%;}
 
 
-        .caixa8{background:url();
-            background-position: 50% 20%;
+        .caixa8{background:url(https://i.pinimg.com/736x/de/f4/ee/def4ee0a5a1f6f4ba1f3c22574201e60.jpg);
+            background-position: 50% 30%;
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 15%;} 
             
             
-            .caixa7{background:url();
-                background-position: 50% 20%;
+            .caixa7{background:url(https://i.pinimg.com/736x/8e/18/e0/8e18e00b3c833c43353d77e60eba8ceb.jpg);
+                background-position: 50% 30%;
                 background-size: cover;
                 background-repeat: no-repeat;
                 border-radius: 15%;} 
 
 
-                 .caixa6{background:url();
+                 .caixa6{background:url(https://chaparadois.com.br/wp-content/uploads/2024/05/Creme-de-Leite-Ninho-para-Rechear-Cobrir-e-Confeitar-Bolos-672x352.jpg);
                     background-position: 50% 20%;
                     background-size: cover;
                     background-repeat: no-repeat;
@@ -128,7 +165,7 @@ justify-content: center;}
 
 
                      .caixa5{background:url(https://i.pinimg.com/736x/ba/fc/b5/bafcb5742be388214c92dd4bbc259bc7.jpg);
-                        background-position: 50% 20%;
+                        background-position: 50% 40%;
                         background-size: cover;
                         background-repeat: no-repeat;
                         border-radius: 15%;}
@@ -161,3 +198,29 @@ justify-content: center;}
          .ali{display: flex;
         align-items: center;
     justify-content: center;}
+
+    .divImgr{ height: 30px;}
+    .logor{height: 100%;}
+
+    .roda{ margin: 0px 20px 0px 0px ; }
+    .c{ display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: row;}
+
+        @media (min-width:575px){
+            .fundo{background-color: rgb(251, 255, 255);}
+            
+            .conteiner3{width: 50%;
+                margin: 0 auto;
+                  display: grid;
+                  gap:30px 100px ;
+                  grid-template-columns: repeat(4, 250px);  
+                  ;
+                  grid-column: 1/2;
+                  grid-row: 1/2;
+
+                  place-items: center center;
+                  margin: 100px;}
+
+        }
